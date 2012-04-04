@@ -1,1 +1,7 @@
 Exemplo implementação da fase de decodificação de uma instrução MIPS em C.
+
+Para compilar
+  gcc mips_decoding.c -o mips_decoding
+
+Para executar
+  ./mips_decoding
