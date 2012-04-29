@@ -1,12 +1,11 @@
 # Função que ordena os elementos de um vetor (v) de tamanho n alocados nos registradores $a0 e $a1 em ordem
 # crescente utilizando o algoritmo de ordenação BubbleSort. Corresponde ao seguinte código em C.
-#    void bubbleSort(int v[], int n)
-#    {
+#    void bubbleSort(int v[], int n){
 #       int i, j;
-#       for(i = 0; i < n; i++)
+#       for(i = 0; i < n; i++){
 #         for(j = i -1; j >=0 && v[j] > v[j + 1]; j--)
 #            swap(v,j)
-#    }
+#
 #
 bubbleSort: addi $sp,$sp,-20      
       Sw   $ra, 16($sp)     	  
